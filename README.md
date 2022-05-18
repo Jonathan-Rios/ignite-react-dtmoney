@@ -1,4 +1,10 @@
-<h1 align="center">Title - Subtitle</h1>
+<h1 align="center">DTMoney - [WIP]</h1>
+
+<h2 align="center">Rocketseat Ignite - React</h2>
+
+---
+
+<br>
 
 <p align="center">
   <img 
