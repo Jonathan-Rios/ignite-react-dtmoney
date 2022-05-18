@@ -111,6 +111,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 ➜ yarn add axios 
 ➜ yarn add react-modal
 ➜ yarn add -D @types/react-modal 
+➜ yarn add polished
 ```
 
 <br />
@@ -248,6 +249,22 @@ Axios pros
     Da mesma forma interceptar respostas e verificar se nelas existem algo relacionado a token expirado/inválido e nem chegar a executar nada e já dar um logout no usuário.
   contras:
     Tem que instalar.
+
+Tratamento de conversão para Int
+
+```typescript
+
+<input type="number" value={value} onChange={(event) => setValue( Number(event.target.value) )} />
+
+/* 
+  O event.target.value sempre retorna uma string, mesmo que o tipo do input seja number
+  uma forma de alterarmos para number seria adicionando um + antes do valor assim: */ 
+  setValue(+event.target.value)
+/*
+  porém fica muito explicito, é mais legível usar o Number().
+*/
+  setValue( Number(event.target.value) )
+```
 
 Obs:
 favicon devem ser exportados em png, pois svg parece n ter um suporte muito bacana.
