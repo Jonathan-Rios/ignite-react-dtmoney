@@ -371,6 +371,7 @@ type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'categor
 <br />
 
 <h3>Exemplo bacana de reduce</h3>
+
 ```javascript
 
   const summary = transactions.reduce(
