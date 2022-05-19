@@ -239,7 +239,7 @@ Adicione os preconnect mais ao topo possível, isso aumenta em uns 25% o pre-car
 ---
 <br />
 
-<h3>Utilizando filter no css:<h3>
+<h3>Utilizando filter no css:</h3>
 
 ```javascript
   button {
@@ -400,8 +400,10 @@ type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'categor
 
 <h3>Obs:</h3>
 
+```javascript
 favicon devem ser exportados em png, pois svg parece n ter um suporte muito bacana.
 CSS - outline // Antigamente, eles removiam, porém perceberam que importante para a acessibilidade esse elemento.
+```
 
 <br />
 
